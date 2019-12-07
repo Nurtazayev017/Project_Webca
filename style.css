@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Main-page */
+.main-page{
+    background-image: url(Les-letom-900x500.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover ;
+    background-size: cover;
+
+    margin-top: 0;
+    padding-top: 0;
+    width: 100%;
+    height: 650px;
+}
+.main-page p{
+    text-align: center;
+    padding-top: 200px;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* Services block */
+.services-block{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+}
+.services-block .services-left{
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid #AF9453;
+    background-color: #AF9453;
+    height: 450px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+.services-block .services-left p{
+    padding-top: 50px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    display: block;
+}
+.services-block .services-left .fab{
+    font-family: 'FontAwesome';
+    font-size: 2.4rem;
+    color: white;
+    font-style: normal;
+    display: block;
+    margin-bottom: 20px;
+}
+.services-block .services-left span{
+    line-height: 1.5;
+    font-size: 1.3rem;
+}
+.services-block .services-left button{
+    display: block;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 200px;
+    text-align: center;
+    margin-left: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+    margin-top: 60px;
+}
+.services-block .services-left button a{
+    text-decoration: none;
+    color: white;
+}
+.services-block .services-right{
+    background-image: url(SetWidth1920-A-championship-event10.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover ;
+    background-size: cover;
+    width: 60%;
+    height: 450px;
+    display: inline-block;
+    vertical-align: top;
+}
+/* Review */
+.review-block{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+/* Slideshow container */
+.review-container {
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the text by default */
+  .review-mySlides {
+    display: none;
+  }
+  /* Here the text block */
+  .review-text{
+      width: 100%;
+      text-align: center;
+      color: black;
+      font-size: 2rem;
+      line-height: 1.5;
+      margin-bottom: 50px;
+  }
+  .review-text .fas{
+    font-family: 'FontAwesome';
+    font-size: 3rem;
+    color: black;
+    font-style: normal;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  /* Next & previous buttons */
+  .review-prev, .review-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .review-next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .review-prev:hover, .review-next:hover {
+    background-color: rgba(0,0,0,0.3);
+  }
+  
+  /* The dots/bullets/indicators */
+  .review-dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  
+  /* Fading animation */
+  .review-fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+/* Gallery */
+.gallery{
+    background-image: url(rs_1024x759-191024132535-1024-married-to-medicine-mv-102419.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover ;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    margin-bottom: 50px;
+}
+.gallery .gallery-left{
+    width: 25%;
+    margin-top: 80px;
+    margin-left: 800px;
+    margin-right: 50px;
+    border: 1px solid #AF9453;
+    background-color: #AF9453;
+    height: 500px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+.gallery .gallery-left p{
+    padding-top: 100px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    display: block;
+}
+.gallery .gallery-left .fab{
+    font-family: 'FontAwesome';
+    font-size: 2.4rem;
+    color: white;
+    font-style: normal;
+    display: block;
+    margin-bottom: 20px;
+}
+.gallery .gallery-left span{
+    line-height: 1.5;
+    font-size: 1.3rem;
+}
+.gallery .gallery-left button{
+    display: block;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 200px;
+    text-align: center;
+    margin-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+    margin-top: 70px;
+}
+.gallery .gallery-left button a{
+    text-decoration: none;
+    color: white;
+}
+
