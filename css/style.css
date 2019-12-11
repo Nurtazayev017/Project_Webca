@@ -5,7 +5,7 @@ body{
 
 /* Main-page */
 .main-page{
-    background-image: url(Les-letom-900x500.jpg);
+    background-image: url(../img/Les-letom-900x500.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover ;
@@ -75,7 +75,7 @@ body{
     color: white;
 }
 .services-block .services-right{
-    background-image: url(SetWidth1920-A-championship-event10.jpg);
+    background-image: url(../img/SetWidth1920-A-championship-event10.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover ;
@@ -179,7 +179,7 @@ body{
 
 /* Gallery */
 .gallery{
-    background-image: url(rs_1024x759-191024132535-1024-married-to-medicine-mv-102419.jpg);
+    background-image: url(../img/rs_1024x759-191024132535-1024-married-to-medicine-mv-102419.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover ;
