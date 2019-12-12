@@ -1,7 +1,7 @@
 /* Menu */
 .header{
     position: fixed;
-    width: 100%;
+    width: 190%;
     height: 90px;
     top: 0;
     left: 0;
@@ -10,7 +10,7 @@
 }
 .logotype{
     display: inline-block;
-    width: 200px;
+    width: 150px;
 }
 .logotype img{
     margin-top: 10px;
@@ -25,6 +25,10 @@
 }
 .main-header nav>ul>li{
     display: inline-block;
+}
+
+#navbar a:hover{
+    color:black;
 }
 
 #navbar ul{
@@ -67,4 +71,9 @@
     margin-left: 0; 
     float: none; 
     background-color: #fff;
+}
+
+#dropd li {
+    color: white;
+    background: rgba(0, 0, 0, 1);
 }

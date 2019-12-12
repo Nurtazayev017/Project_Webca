@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About</title>
-    <!-- style -->
-    <link rel="stylesheet" href="css/style2.css">
+    <title>Galery</title>
+    <link rel="stylesheet" href="css/style4.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/mobil.css">
-    <link rel="icon" href="img/akiba-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/mobile-menu.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Font -->
+    <link rel="icon" href="img/akiba-logo.png" type="image/x-icon">
+    <!-- Fontawesome .css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
-    <!-- Header -->
+     <!-- Header -->
     <div class="header">
         <div class="logotype">
             <a href="index.html"><img src="img/akiba-logo.png" alt=""></a>
@@ -50,49 +51,58 @@
                 </div>
             </div>
     </div>
-    
 
-    <div class="page-info">
-        <div class="image-org">
-                <img src="img/boss.png" alt="">
-        </div>
-        <div class="page-info-people1">
-            <i class="fas fa-quote-right"></i>
-            <p class="number1">Make dreams,<br>   come true </p>
-            <p class="number2">Money had no name of course. And if it did have a name, it would no longer be money. What gave money its true meaning was its dark-night namelessness, its breathtaking interchangeability.</p>
-            <p class="number3">Nurken Nurtazayev <br>Founder and Creative Director<br></p>
-        </div>
+    <div class="galery-main-block">
+        <p class="main-header-title">G a l e r y</p>
     </div>
-    <div class="page-info">
-        <div class="page-info-people1">
-            <i class="fas fa-quote-right"></i>
-            <p class="number1">Turning ideas into <br>reality</p>
-            <p class="number2">What is a cynic? A man who knows the price of everything and the value of nothing.</p>
-            <p class="number3">Alisher Nazaraly<br>Moderator</p>
+    <!-- <div class="gallery-block"> -->
+        <div class="gallery-container">
+                <!-- Full-width images with number and caption text -->
+            <div class="gallery-mySlides gallery-fade">
+                <img src="img/event1.jpeg" alt="">
+            </div>
+            <div class="gallery-mySlides gallery-fade">
+                <img src="img/event2.jpeg" alt="">              
+            </div>
+            <div class="gallery-mySlides gallery-fade">
+                <img src="img/event3.jpeg" alt="">
+            </div>
+
+                <!-- Next and previous buttons -->
+            <a class="gallery-prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="gallery-next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-        <img src="img/secretary.png" alt="" class="image-org">
+            <br>
+                
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="gallery-dot" onclick="currentSlide(1)"></span>
+                <span class="gallery-dot" onclick="currentSlide(2)"></span>
+                <span class="gallery-dot" onclick="currentSlide(3)"></span>
+            </div>
+    <div class="content-gallery">
+        <img src="img/photo1.png" alt="image">
+        <img src="img/photo2.png" alt="image">
+        <img src="img/photo3.png" alt="image">
+        <img src="img/photo4.jpeg" alt="image">
+        <img src="img/photo5.jpeg" alt="image">
+        <img src="img/photo6.jpeg" alt="image">
+        <img src="img/photo7.jpeg" alt="image">
+        <img src="img/photo8.png" alt="image">
+        <img class="last" src="img/photo9.png" alt="image">
     </div>
-    <div class="page-info">
-        <img src="img/TP.png" alt="" class="image-org">
-        <div class="page-info-people1">
-            <i class="fas fa-quote-right"></i>
-            <p class="number1">We pay attention to <br>details</p>
-            <p class="number2">Generosity is giving more than you can, and pride is taking less than you need. </p>
-            <p class="number3">Sultan Iscanderovic<br>Technical support</p>
-        </div>
-    </div>
-    <div class="footer">
+    
+     <!-- Footer -->
+     <div class="footer">
         <div class="footer-block1">
             <p>st. Ablaihana, 1/1, <br>Kaskelen, Kazakhstan</p>
         </div>
         <div class="footer-block2">
             <p>Tel: +7 (778) 778 78 08<br>Fax: +7 (778) 778 78 08<br>nurtazayevn@gmail.com</p>
         </div>
-    </div>
-    <script src="js/review.js"></script>
+        </div>
+    
+    <script src="js/gallery.js"></script>
     <script src="js/mobile-menu.js"></script>
 </body>
 </html>
-
-
-

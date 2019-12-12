@@ -6,7 +6,7 @@ body {
 .page-info {
     margin: 50px;
 }
-.image-org{
+.page-info .image-org{
     display: inline-block;
     width: 500px;
     height: 610px;

@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="icon" href="akiba-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/mobil.css">
+    <link rel="stylesheet" href="css/mobile-menu.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="img/akiba-logo.png" type="image/x-icon">
     <!-- Fontawesome .css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
@@ -16,25 +19,38 @@
     <!-- Header -->
     <div class="header">
         <div class="logotype">
-            <a href="index.html"><img src="img/Jirnexu_Logotype.png" alt=""></a>
+            <a href="index.html"><img src="img/akiba-logo.png" alt=""></a>
         </div>
         <div class="main-header">
             <nav>
                 <ul id="navbar">
                     <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="#">Services</a>
-                        <ul>
-                            <li><a href="#">Wedding</a> </li>
-                            <li><a href="#" >Event</a></li>
-                            <li><a href="#">Bday</a></li>
+                    <li><a href="index3.html">Services</a>
+                        <ul id="dropd">
+                            <li><a href="index3.html#wedding_block">Wedding</a> </li>
+                            <li><a href="index3.html#event_block" >Event</a></li>
+                            <li><a href="index3.html#bday_block">Bday</a></li>
                         </ul>
                     </li>
                     <li><a href="index2.html">About</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Contacts</a></li>
+                    <li><a href="index4.html">Gallery</a></li>
+                    <li><a href="index5.html">Contacts</a></li>
                 </ul>
             </nav>
         </div>
+        <!-- Mobile menu -->
+        <div class="mobile-menu">
+            <i id="burger" class="material-icons" onclick="burger()">menu</i>
+            <i id="quit" class="material-icons" onclick="quit()">clear</i>
+            <div id="links">
+                <a href="index.html">Home</a>
+                <a href="index3.html">Services</a>
+                <a href="index2.html">About</a>
+                <a href="index4.html">Gallery</a>
+                <a href="index5.html">Contacts</a>
+            </div>
+        </div>
+        
     </div>
     <!-- Main-page -->
     <div class="main-page">
@@ -46,7 +62,7 @@
             <p>Services</p>
             <i class="fab fa-pagelines"></i>
             <span>Make your dreams <br> come true</span>
-            <button><a href="#">Show more</a></button>
+            <button><a href="index3.html">Show more</a></button>
         </div>
         <div class="services-right"></div>
     </div>
@@ -58,7 +74,7 @@
                 <div class="review-text">
                     <i class="fas fa-quote-right"></i>
                     <p>We ordered the anniversary. <br> Everything went at the highest level. <br> Thanks to the organizers!</p>
-                    <span>Anna and Egor</span>
+                    <span>Nurken</span>
                 </div>
             </div>
 
@@ -66,16 +82,16 @@
             <div class="review-mySlides review-fade">
                 <div class="review-text">
                     <i class="fas fa-quote-right"></i>
-                    <p>We ordered the anniversary. <br> Everything went at the highest level. <br> Thanks to the organizers!</p>
-                    <span>Sasha</span>
+                    <p>We want to sincerely thank you for your professionalism and attentive attitude towards your customers. The Akiba team did an excellent job of preparing and organizing a range of corporate events and team-buildings. High professionalism and rich experience of employees are an example for other Event agencies!</p>
+                    <span>Gaini</span>
                 </div>
             </div>
             <!-- Third review-->
             <div class="review-mySlides review-fade">
                 <div class="review-text">
                     <i class="fas fa-quote-right"></i>
-                    <p>We ordered the anniversary. <br> Everything went at the highest level. <br> Thanks to the organizers!</p>
-                    <span>Leha pidr</span>
+                    <p>Our family thanks your agency for organizing the best children's event we have ever been to. The organization, design, work of animators and even catering services were at the highest level! Thanks to Akiba, this event will remain in the memory of every guest!</p>
+                    <span>Aidana and Alisher</span>
                 </div>
             </div>
             <!-- Next and previous buttons -->
@@ -97,7 +113,7 @@
             <p>Gallery</p>
             <i class="fab fa-pagelines"></i>
             <span>Unforgettable experience</span>
-            <button><a href="#">Show more</a></button>
+            <button><a href="index4.html">Show more</a></button>
         </div>
     </div>
     <!-- Footer -->
@@ -106,9 +122,10 @@
             <p>st. Ablaihana, 1/1, <br>Kaskelen, Kazakhstan</p>
         </div>
         <div class="footer-block2">
-            <p>Tel: 87787787808<br>Fax: 87787787808<br>nurtazayevn@gmail.com</p>
+            <p>Tel: +7 (778) 778 78 08<br>Fax: +7 (778) 778 78 08<br>nurtazayevn@gmail.com</p>
         </div>
     </div>
     <script src="js/review.js"></script>
+    <script src="js/mobile-menu.js"></script>
 </body>
 </html>

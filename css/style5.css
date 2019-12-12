@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* contacts block */
+.contacts-block{
+    margin-top: 150px;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+}
+.contacts-block .contacts-left{
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid #AF9453;
+    background-color: #AF9453;
+    height: 600px;
+    text-align: center;
+    color: white;
+}
+.contacts-block .contacts-left p{
+    padding-top: 150px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    display: block;
+}
+.contacts-block .contacts-left .fab{
+    font-family: 'FontAwesome';
+    font-size: 2.4rem;
+    color: white;
+    font-style: normal;
+    display: block;
+    margin-bottom: 20px;
+}
+.contacts-block .contacts-left span{
+    line-height: 1.5;
+    font-size: 1.3rem;
+}
+.contacts-block .contacts-left button{
+    display: block;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+    margin-top: 60px;
+}
+.contacts-block .contacts-left button a{
+    text-decoration: none;
+    color: white;
+}
+.main-text {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 50px;
+    width: 825px;
+    height: 550px;
+    background: rgb(250, 247, 247);
+}
+.main-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    margin-left: 1px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    color: #AF9453;
+    font-weight: 540;
+}
+.main-text form{
+    width: 80%;
+    margin-left: 80px;
+    padding-top: 40px;
+}
+.main-text form input, textarea{
+    width: 100%;
+    border: none;
+    height: 20px;
+    border-bottom: 1px solid #AF9453;
+    padding: 5px;
+    display: block;
+    font-size: 1.1rem;
+    outline: none;
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+.main-text form textarea{
+    height: 150px;
+}
+.main-text .in-1{
+    width: 46%;
+    margin-right: 10px;
+    display: inline-block;
+}
+.contact-info .image-org{
+    display: inline-block;
+    width: 550px;
+    height: 550px;
+    margin-top: 50px;
+}
+.contact-info-people1 {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 110px;
+    width: 785px;
+    height: 500px;
+    background: rgb(250, 247, 247);
+}
+.contact-info-people1 i {
+    font-family: "FontAwesome";
+    font-size: 30px;
+    margin-left: 370px;
+}
+.contact-info-people1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+.main-text button{
+    margin-left: 400px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #AF9453;
+    padding-top: 10px;
+    cursor: pointer;
+    outline: none;
+}
+.contact-info {
+    margin: 50px;
+}
+.image-org{
+    display: inline-block;
+    width: 500px;
+    height: 590px;
+    margin-top: 0px;
+}
+.image-org img{
+    width: 90%;
+    height: 100%;
+}
+.contact-info-people1 {
+    display: inline-block;
+    padding-top: 90px;
+    width: 830px;
+    height: 500px;
+    background: rgb(250, 247, 247);
+}
+.contact-info-people1 i {
+    font-family: "FontAwesome";
+    font-size: 30px;
+    margin-left: 370px;
+}
+.contact-info-people1 p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-info{
+    text-align: center;
+    font-size: 20px;
+    color: #AF9453;
+    margin-top: 150px;
+}
+.contact-info-people1{
+    line-height: 2;
+}
+.number1{
+    letter-spacing: 0.80em;
+}
+.number11{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.10em;
+}

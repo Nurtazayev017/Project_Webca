@@ -1,0 +1,751 @@
+@media (min-width: 1401px){
+    .contacts-left button{
+        margin-left: 120px;
+    }
+    .contacts-left{
+        display: inline-block;
+    }
+    .contact-info .image-org{
+        width: 500px;
+        margin-top: 0;
+    }
+    .mobile-menu{
+        display: none;
+    }
+}
+/* Large Desktop */
+@media (min-width: 1245px) and (max-width: 1400px){
+    /* Main page */
+   #navbar{
+       margin-left: 300px;
+   }
+   .mobile-menu{
+       display: none;
+   }
+   .review-block{
+       padding-top: 50px;
+   }
+   .gallery .gallery-left button{
+        margin-left: 55px;
+    }
+    .footer-block1{
+        margin-left: 400px;
+    }
+    /* services */
+    .sidebar{
+        margin-left: 50px;
+    }
+    /* about */
+    .page-info .image-org{
+        width: 450px;
+    }
+    .page-info-people1{
+        width: 680px;
+    }
+    /* gallery */
+    .content-gallery img {
+        display: inline-block;
+        padding-left: 50px;
+        height: 350px;
+        width: 350px;
+    }
+    .contacts-block .contacts-left button{
+        margin-left: 80px;
+    }
+    .main-text {
+        width: 725px;
+    }
+    /* Contacts */
+    .contact-info-people1{
+        width: 650px;
+    }
+    .contact-info .image-org{
+        width: 450px;
+        margin-top: 0px;
+    }
+    .contacts-left button{
+        margin-left: 120px;
+    }
+    .contacts-left{
+        display: inline-block;
+    }
+}
+/* Normal Desktop */
+@media (min-width: 1037px) and (max-width: 1244px){
+    /* Main page */
+    #navbar {
+        margin-left: 150px;
+    }
+    .mobile-menu{
+        display: none;
+    }
+    .services-block .services-left{
+        width: 35%;
+        margin-right: 30px;
+    }
+    .services-block .services-left button{
+        margin-left: 85px;
+    }
+    .services-block .services-right{
+        width: 52%;
+    }
+    .review-block{
+        padding-top: 50px;
+    }
+    .review-text{
+        font-size: 1.6rem;
+    }
+    .review-mySlides {
+        padding: 0 50px;
+    }
+    .gallery .gallery-left{
+        width: 35%;
+        margin-left: 600px;
+    }
+    .footer-block1{
+        margin-left: 300px;
+    }
+    /* services */
+    .sidebar{
+        margin-left: 50px;
+        width: 250px;
+        height: 400px;
+    }
+    .sidebar .img-work{
+        width: 150px;
+        height: 150px;
+        margin-left: 50px;
+    }
+    .word1{
+        font-size: 1.4rem;
+    }
+    .word2{
+        font-size: 1.2rem;
+    }
+    /* about */
+    .page-info .image-org{
+        width: 400px;
+    }
+    .page-info-people1{
+        width: 530px;
+    }
+    .number3{
+        margin-top: 75px;
+    }
+    .page-info-people1 i {
+        margin-left: 250px;
+    }
+    /* gallery */
+    .content-gallery img {
+        padding-left: 50px;
+        height: 450px;
+        width: 450px;
+    }
+    .content-gallery .last{
+        display: none;
+    }
+    .gallery-container{
+        height: 750px;
+    }
+    /* Contacts */
+    .main-text{
+        width: 600px;
+    }
+    .contacts-left button{
+        margin-left: 60px;
+    }
+    .main-text .in-1{
+        width: 43%;
+    }
+    .contact-info-people1 {
+        width: 500px;
+    }
+    .contact-info .image-org{
+        margin: 0;
+        width: 400px;
+    }
+    .contacts-left{
+        display: inline-block;
+    }
+}
+/* Tablet Desktop */
+@media (min-width: 991px) and (max-width: 1036px){
+    /* Main page */
+    #navbar {
+        margin-left: 130px;
+    }
+    .mobile-menu{
+        display: none;
+    }
+    .services-block .services-left{
+        width: 35%;
+        margin-right: 30px;
+    }
+    .services-block .services-left button{
+        margin-left: 85px;
+    }
+    .services-block .services-right{
+        width: 52%;
+    }
+    .review-block{
+        padding-top: 50px;
+    }
+    .review-text{
+        font-size: 1.6rem;
+    }
+    .review-mySlides {
+        padding: 0 50px;
+    }
+    .gallery .gallery-left{
+        width: 35%;
+        margin-left: 600px;
+    }
+    .footer-block1{
+        margin-left: 300px;
+    }
+    /* services */
+    .sidebar{
+        margin-left: 50px;
+        width: 250px;
+        height: 400px;
+    }
+    .sidebar .img-work{
+        width: 150px;
+        height: 150px;
+        margin-left: 50px;
+    }
+    .word1{
+        font-size: 1.4rem;
+    }
+    .word2{
+        font-size: 1.2rem;
+    }
+    /* about */
+    .page-info .image-org{
+        width: 400px;
+    }
+    .page-info-people1{
+        width: 480px;
+    }
+    .number3{
+        margin-top: 75px;
+    }
+    .page-info-people1 i {
+        margin-left: 250px;
+    }
+    /* gallery */
+    .content-gallery img {
+        padding-left: 50px;
+        height: 400px;
+        width: 400px;
+    }
+    .content-gallery .last{
+        display: none;
+    }
+    .gallery-container{
+        height: 720px;
+    }
+    /* Contacts */
+    .main-text{
+        width: 500px;
+    }
+    .main-text form{
+        margin-left: 40px;
+    }
+    .contacts-left button{
+        margin-left: 50px;
+    }
+    .main-text .in-1{
+        width: 43%;
+    }
+    .contact-info-people1 {
+        width: 450px;
+    }
+    .contact-info .image-org{
+        margin: 0;
+        width: 400px;
+    }
+    .contacts-left{
+        display: inline-block;
+    }
+}
+/* Middle Desktop */
+@media (min-width: 768px) and (max-width: 990px){
+    /* Main page */
+    .main-header{
+        display: none;
+    }
+    .main-page p{
+        font-size: 2.5rem;
+        padding-top: 300px;
+    }
+    .services-block .services-left{
+        width: 35%;
+        margin-left: 30px;
+        margin-right: 0;
+    }
+    .services-block .services-left button{
+        margin-left: 35px;
+    }
+    .services-block .services-right{
+        width: 57%;
+    }
+    .review-block{
+        padding-top: 50px;
+    }
+    .review-text{
+        font-size: 1.4rem;
+    }
+    .review-mySlides {
+        padding: 0 50px;
+    }
+    .gallery .gallery-left{
+        width: 40%;
+        margin-left: 400px;
+    }
+    .gallery .gallery-left button{
+        margin-left: 50px;
+    }
+    .footer-block1{
+        margin-left: 150px;
+    }
+    /* services */
+    .sidebar{
+        display: block;
+        margin-left: 50px;
+        width: 87%;
+        height: 400px;
+        margin-top: 30px;
+    }
+    .sidebar .img-work{
+        width: 150px;
+        height: 150px;
+        margin-left: 270px;
+    }
+    .word1{
+        font-size: 1.4rem;
+    }
+    .word2{
+        font-size: 1.2rem;
+    }
+    /* about */
+    .page-info .image-org{
+        width: 400px;
+    }
+    .page-info-people1{
+        width: 470px;
+    }
+    .number3{
+        margin-top: 75px;
+    }
+    .page-info-people1 i {
+        margin-left: 250px;
+    }
+    /* gallery */
+    .content-gallery img {
+        height: 300px;
+        width: 300px;
+    }
+    .content-gallery .last{
+        display: none;
+    }
+    .gallery-container{
+        height: 600px;
+    }
+    /* Contacts */
+    .main-text{
+        width: 100%;
+        margin-top: -50px;
+    }
+    .main-text form{
+        margin-left: 60px;
+    }
+    .contacts-left{
+        display: none;
+    }
+    .main-text .in-1{
+        width: 45%;
+    }
+    .contact-info-people1 {
+        width: 350px;
+    }
+    .contact-info .image-org{
+        margin: 0;
+        width: 300px;
+    }
+}
+/* Mobile Destop:480px */
+@media (min-width: 425px) and (max-width: 767px){
+    /* Main page */
+    .main-header{
+        display: none;
+    }
+    .header{
+        width: 100%;
+    }
+    .main-page p{
+        font-size: 2.5rem;
+        padding-top: 300px;
+    }
+    .services-block .services-left{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .services-block .services-left button{
+        margin-left: 110px;
+    }
+    .services-block .services-right{
+        display: none;
+    }
+    .review-block{
+        padding-top: 50px;
+    }
+    .review-text{
+        font-size: 1.1rem;
+    }
+    .review-mySlides {
+        padding: 0 50px;
+    }
+    .gallery{
+        background-image: none;
+        height: 500px;
+    }
+    .gallery .gallery-left{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    .gallery .gallery-left button{
+        margin-left: 115px;
+    }
+    .footer-block1{
+        width: 150px;
+        font-size: 1rem;
+        line-height: 1.2;
+        margin-left: 9%;
+    }
+    .footer-block2{
+        width: 190px;
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+    .footer{
+        margin-top: 0;
+    }
+    /* services */
+    .sidebar{
+        display: block;
+        margin-left: 25px;
+        width: 87%;
+        height: 400px;
+        margin-top: 30px;
+    }
+    .sidebar .img-work{
+        width: 150px;
+        height: 150px;
+        margin-left: 120px;
+    }
+    .word1{
+        font-size: 1.4rem;
+    }
+    .word2{
+        font-size: 1.2rem;
+    }
+     /* about */
+    .page-info .image-org{
+        width: 400px;
+    }
+    .page-info-people1{
+        width: 470px;
+    }
+    .number3{
+        margin-top: 75px;
+    }
+    .page-info-people1 i {
+        margin-left: 250px;
+    }
+    /* gallery */
+    .content-gallery img {
+        height: 300px;
+        width: 300px;
+    }
+    .content-gallery .last{
+        display: none;
+    }
+    .gallery-container{
+        height: 300px;
+    }
+    /* Contacts */
+    .main-text{
+        width: 100%;
+        margin-top: -50px;
+    }
+    .main-text form{
+        margin-left: 20px;
+    }
+    .contacts-left{
+        display: none;
+    }
+    .main-text .in-1{
+        width: 100%;
+    }
+    .contact-info-people1 {
+        width: 100%;
+    }
+    .contact-info .image-org{
+        display: none;
+    }
+}
+/* Mobile Destop:480px */
+@media (min-width: 321px) and (max-width: 424px){
+    /* Main page */
+    .main-header{
+        display: none;
+    }
+    .header{
+        width: 100%;
+    }
+    .main-page p{
+        font-size: 2.5rem;
+        padding-top: 300px;
+    }
+    .services-block .services-left{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .services-block .services-left button{
+        margin-left: 80px;
+    }
+    .services-block .services-right{
+        display: none;
+    }
+    .review-block{
+        padding-top: 50px;
+    }
+    .review-text{
+        font-size: 1.1rem;
+    }
+    .review-mySlides {
+        padding: 0 50px;
+    }
+    .gallery{
+        background-image: none;
+    }
+    .gallery .gallery-left{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    .gallery .gallery-left button{
+        margin-left: 80px;
+    }
+    .footer-block1{
+        width: 105px;
+        font-size: 1rem;
+        line-height: 1.2;
+        margin-left: 10%;
+    }
+    .footer-block2{
+        width: 190px;
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+    /* .footer{ */
+        /* margin-top: -170px; */
+    
+    /* services */
+    .sidebar{
+        display: block;
+        margin-left: 25px;
+        width: 87%;
+        height: 400px;
+        margin-top: 30px;
+    }
+    .sidebar .img-work{
+        width: 150px;
+        height: 150px;
+        margin-left: 27%;
+    }
+    .word1{
+        font-size: 1.4rem;
+    }
+    .word2{
+        font-size: 1.2rem;
+    }
+     /* about */
+    .page-info .image-org{
+        width: 400px;
+    }
+    .page-info-people1{
+        width: 470px;
+    }
+    .number3{
+        margin-top: 75px;
+    }
+    .page-info-people1 i {
+        margin-left: 250px;
+    }
+    /* gallery */
+    .content-gallery img {
+        height: 250px;
+        width: 250px;
+        margin-left: 1%;
+    }
+    .content-gallery .last{
+        display: none;
+    }
+    .gallery-container{
+        height: 300px;
+    }
+    .content-gallery{
+        margin-bottom: 200px;
+        margin-left: -25px;
+    }
+    /* Contacts */
+    .main-text{
+        width: 100%;
+        margin-top: -50px;
+    }
+    .main-text form{
+        margin-left: 20px;
+    }
+    .main-text p{
+        font-size: 1.1rem;
+        margin-top: 5px;
+    }
+    .contacts-left{
+        display: none;
+    }
+    .main-text .in-1{
+        width: 100%;
+    }
+    .contact-info{
+        display: none;
+    }
+}
+@media (max-width:320px){
+    /* Main page */
+    .main-header{
+        display: none;
+    }
+    .header{
+        width: 100%;
+    }
+    .main-page p{
+        font-size: 2.5rem;
+        padding-top: 300px;
+    }
+    .services-block .services-left{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .services-block .services-left button{
+        margin-left: 80px;
+    }
+    .services-block .services-right{
+        display: none;
+    }
+    .review-block{
+        padding-top: 50px;
+    }
+    .review-text{
+        font-size: 1.1rem;
+    }
+    .review-mySlides {
+        padding: 0 50px;
+    }
+    .gallery{
+        background-image: none;
+    }
+    .gallery .gallery-left{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    .gallery .gallery-left button{
+        margin-left: 80px;
+    }
+    .footer-block1{
+        width: 105px;
+        font-size: 1rem;
+        line-height: 1.2;
+        margin-left: 10%;
+    }
+    .footer-block2{
+        width: 190px;
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+    /* services */
+    .sidebar{
+        display: block;
+        margin-left: 25px;
+        width: 87%;
+        height: 400px;
+        margin-top: 30px;
+    }
+    .sidebar .img-work{
+        width: 150px;
+        height: 150px;
+        margin-left: 27%;
+    }
+    .word1{
+        font-size: 1.4rem;
+    }
+    .word2{
+        font-size: 1.2rem;
+    }
+     /* about */
+    .page-info .image-org{
+        width: 400px;
+    }
+    .page-info-people1{
+        width: 470px;
+    }
+    .number3{
+        margin-top: 75px;
+    }
+    .page-info-people1 i {
+        margin-left: 250px;
+    }
+    /* gallery */
+    .content-gallery img {
+        height: 250px;
+        width: 250px;
+        margin-left: -5%;
+    }
+    .content-gallery .last{
+        display: none;
+    }
+    .gallery-container{
+        height: 300px;
+    }
+    .content-gallery{
+        margin-bottom: 200px;
+    }
+    /* Contacts */
+    .main-text{
+        width: 100%;
+        margin-top: -50px;
+    }
+    .main-text form{
+        margin-left: 20px;
+    }
+    .main-text p{
+        font-size: 1.1rem;
+        margin-top: 5px;
+    }
+    .contacts-left{
+        display: none;
+    }
+    .main-text .in-1{
+        width: 100%;
+    }
+    .contact-info{
+        display: none;
+    }
+}
+
